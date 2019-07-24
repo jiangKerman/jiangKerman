@@ -346,27 +346,27 @@
     
     
     <article class="index-post">
-        <a class="abstract-title" href="/2019/06/14/EnableBBRtoImproveNetworkSpeedOnLinux/">
+        <a class="abstract-title" href="/2019/07/21/mysql修改字符集/">
             
-                <span>EnableBBRtoImproveNetworkSpeedOnLinux</span>
+                <span>mysql修改字符集</span>
         </a>
         <div class="abstract-content">
-            六月一号大面积被墙，只好屈服于BAT的服务器了。
-
-从万恶的百度那儿搞了一个服务器，突然意识到之前的bbr都是用的别人的一键脚本。今天把别人的链接偷过来，自己搞一下。but！ 我发现对于这种垃圾服务器，无论用什么算法都不能解决本身硬件太慢的核心缺点。
-How to enable TCP BBR to improve network speed on Linux
+            服务器下mysql的字符集因为万恶的资本主义，默认的拉丁字符集不支持中文。遂修改
+在/etc/my.cnf中进行初始化数据库的encode:[client]   # 新增客户端的编码default-character-set=utf8
+[mysql]   # 新增客户端的编码，缺省default-character-set=utf8
+重启mysql服务，完事儿
 
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
             <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/06/14</span>
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/07/21</span>
             </div>
             <!-- tags  -->
             
             <div class="abstract-tags">
     
-        <a class="post-tag" href="javascript:void(0);" data-tags="linux">linux</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="mysql">mysql</a>
     
 </div>
             
