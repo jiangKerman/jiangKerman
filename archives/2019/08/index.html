@@ -346,60 +346,19 @@
     
     
     <article class="index-post">
-        <a class="abstract-title" href="/2019/07/21/mysql修改字符集/">
+        <a class="abstract-title" href="/2019/08/08/windows下的ssh/">
             
-                <span>mysql修改字符集</span>
+                <span>windows下的ssh</span>
         </a>
         <div class="abstract-content">
-            服务器下mysql的字符集因为万恶的资本主义，默认的拉丁字符集不支持中文。遂修改
-在/etc/my.cnf中进行初始化数据库的encode:[client]   # 新增客户端的编码default-character-set=utf8
-[mysql]   # 新增客户端的编码，缺省default-character-set=utf8
-重启mysql服务，完事儿
-
+            
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
             <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/07/21</span>
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/08/08</span>
             </div>
             <!-- tags  -->
-            
-            <div class="abstract-tags">
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags="mysql">mysql</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/05/07/CentOsp配置mysql允许远程登陆/">
-            
-                <span>CentOsp配置mysql允许远程登陆</span>
-        </a>
-        <div class="abstract-content">
-            一、允许root用户在任何地方进行远程登录，并具有所有库任何操作权限，具体操作如下：在本机先使用root用户登录mysql：mysql -u root -p”youpassword”进行授权操作：1mysql&gt;GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'youpassword' WITH GRANT OPTION;
-重载授权表：FLUSH PRIVILEGES;退出mysql数据库：exit
-二、允许root用户在一个特定的IP进行远程登录，并具有所有库任何操作权限，具体操作如下：GRANT ALL PRIVIL...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/05/07</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class="abstract-tags">
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags="mysql">mysql</a>
-    
-</div>
             
         </div>
     </article>
